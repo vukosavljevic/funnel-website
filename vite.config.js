@@ -19,14 +19,8 @@ export default defineConfig({
   build: {
     // Clean output directory before build
     emptyOutDir: true,
-    // Optimize build for performance
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-      },
-    },
+    // Use esbuild minifier (default, faster, no extra dependencies)
+    minify: 'esbuild',
     rollupOptions: {
       output: {
         manualChunks: {
