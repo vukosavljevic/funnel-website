@@ -475,17 +475,22 @@ const submitForm = () => {
     city: surveyData.value.city
   })
   
+  // Redirect to thank you page
   window.location.href = '/roofing-thank-you?' + tyParams.toString()
 }
 
 onMounted(() => {
-  // Validate on autofill
+  // Validate on autofill - use requestAnimationFrame for better performance
   const inputs = document.querySelectorAll('.survey-input')
   inputs.forEach(input => {
     input.addEventListener('focus', () => {
-      setTimeout(validate, 100)
+      requestAnimationFrame(() => {
+        setTimeout(validate, 100)
+      })
     })
-    input.addEventListener('blur', validate)
+    input.addEventListener('blur', () => {
+      requestAnimationFrame(validate)
+    })
   })
 })
 </script>

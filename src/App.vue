@@ -45,7 +45,14 @@ const isThankYouPage = ref(false)
 
 onMounted(() => {
   // Check if we're on the thank you page
-  isThankYouPage.value = window.location.pathname === '/roofing-thank-you' || 
-                         window.location.pathname.includes('thank-you')
+  const checkRoute = () => {
+    isThankYouPage.value = window.location.pathname === '/roofing-thank-you' || 
+                           window.location.pathname.includes('thank-you')
+  }
+  
+  checkRoute()
+  
+  // Listen for route changes
+  window.addEventListener('popstate', checkRoute)
 })
 </script>
