@@ -6,7 +6,7 @@
           src="../../assets/logo.png" 
           alt="JK Roofing & Construction"
           width="160"
-          height="auto"
+          height="103"
           loading="eager"
           fetchpriority="high"
         >
