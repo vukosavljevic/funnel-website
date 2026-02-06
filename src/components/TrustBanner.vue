@@ -1,15 +1,15 @@
 <template>
   <div class="trust-banner">
-    <h2>Why Utah Trusts JK Roofing & Construction</h2>
+    <h2>Why Ohio Trusts JK Roofing & Construction</h2>
     <p>Numbers that speak for themselves</p>
     <div class="trust-stats">
       <div class="stat-item">
         <span class="stat-number">4,000+</span>
-        <span class="stat-label">Roofs Installed Across Utah</span>
+        <span class="stat-label">Roofs Installed Across Ohio</span>
       </div>
       <div class="stat-item">
         <span class="stat-number">20+</span>
-        <span class="stat-label">Years Serving the Wasatch Front</span>
+        <span class="stat-label">Years Serving Greater Cincinnati</span>
       </div>
       <div class="stat-item">
         <span class="stat-number">1 Day</span>

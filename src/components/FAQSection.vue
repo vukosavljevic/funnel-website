@@ -2,7 +2,7 @@
   <div class="faq-section">
     <div class="faq-header">
       <h2>Your Questions Answered</h2>
-      <p>We've helped thousands of Utah homeowners with their roofing needs. Here are answers to the questions we hear most often.</p>
+      <p>We've helped thousands of Ohio homeowners with their roofing needs. Here are answers to the questions we hear most often.</p>
     </div>
     <div 
       v-for="(faq, index) in faqs" 
@@ -34,16 +34,16 @@ const faqs = [
     a: '<strong>Most roofs are completed in just one day.</strong> Our experienced crews work efficiently without cutting corners. We show up when we say we will, finish on time, and leave your property cleaner than we found it.'
   },
   {
-    q: 'What\'s included in the $7,499 starting price?',
+    q: 'What\'s included in the $7,299 starting price?',
     a: '<strong>Everything you need for a complete roof system:</strong> tear-off, disposal, premium GAF shingles, underlayment, flashing, vents, and cleanup. No hidden fees. If we discover damaged plywood during tear-off, we discuss it with you first—no surprise charges.'
   },
   {
     q: 'What warranty do you offer?',
-    a: '<strong>50-year manufacturer warranty on materials.</strong> As a GAF Master Elite contractor (top 2% nationwide), we can offer GAF\'s best warranties. Plus our own workmanship guarantee—if there\'s ever an issue with our installation, we make it right.'
+    a: '<strong>25-year manufacturer warranty on materials.</strong> As a GAF Master Elite contractor (top 2% nationwide), we can offer GAF\'s best warranties. Plus our own workmanship guarantee—if there\'s ever an issue with our installation, we make it right.'
   },
   {
     q: 'What areas do you serve?',
-    a: '<strong>The entire Wasatch Front and Wasatch Back.</strong> We serve Salt Lake City, West Jordan, Sandy, South Jordan, Lehi, Provo, Ogden, Layton, Bountiful, Park City, Heber City, and all surrounding Utah communities.'
+    a: '<strong>Within 150 miles of Cincinnati, OH—covering all three states:</strong> Ohio, Kentucky, and Indiana. We serve Cincinnati, Dayton, Columbus (OH), Northern Kentucky, Indianapolis metro, and surrounding communities. If you\'re in the tri-state area, we\'ve got you covered.'
   },
   {
     q: 'Do you offer financing?',

@@ -18,7 +18,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const isVisible = ref(false)
 const notificationName = ref('Someone')
-const notificationLocation = ref('Utah')
+const notificationLocation = ref('Ohio')
 
 const names = [
   'Sarah M.', 'Michael R.', 'Jennifer L.', 'David K.', 'Amanda S.',
@@ -29,8 +29,8 @@ const names = [
 ]
 
 const locations = [
-  'Salt Lake City', 'West Jordan', 'Sandy', 'South Jordan', 'Draper',
-  'Lehi', 'Provo', 'Ogden', 'Layton', 'Bountiful'
+  'Cincinnati', 'Dayton', 'Columbus', 'Northern Kentucky', 'Indianapolis',
+  'Covington', 'Newport', 'Florence', 'Hamilton', 'Mason'
 ]
 
 let notificationInterval = null

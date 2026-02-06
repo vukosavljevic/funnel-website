@@ -4,8 +4,7 @@
       <div class="footer-main">
         <div class="footer-column">
           <h3>JK Roofing & Construction</h3>
-          <p>Family owned and operated for over 20 years. We're not a faceless corporation—we're your neighbors, committed to quality roofing and honest pricing for Utah homeowners.</p>
-          <p><strong>Phone:</strong> (801) 305-4851</p>
+          <p>Family owned and operated for over 20 years. We're not a faceless corporation—we're your neighbors, committed to quality roofing and honest pricing for Ohio homeowners.</p>
           <button class="footer-cta-btn" @click="scrollToForm">Start Your Free Estimate</button>
         </div>
         <div class="footer-column">
@@ -13,7 +12,7 @@
           <ul>
             <li>✓ Owner-Direct Pricing</li>
             <li>✓ GAF Master Elite (Top 2%)</li>
-            <li>✓ 50-Year Warranty</li>
+            <li>✓ 25-Year Warranty</li>
             <li>✓ Most Roofs Done in 1 Day</li>
             <li>✓ No Hidden Fees</li>
           </ul>
@@ -28,16 +27,6 @@
             <li>Complete Cleanup</li>
           </ul>
         </div>
-        <div class="footer-column">
-          <h4>Serving the Wasatch Front</h4>
-          <ul>
-            <li>Salt Lake City & West Valley</li>
-            <li>Sandy, Draper & South Jordan</li>
-            <li>Lehi, Provo & Orem</li>
-            <li>Ogden, Layton & Bountiful</li>
-            <li>Park City & Heber City</li>
-          </ul>
-        </div>
       </div>
       <div class="footer-cta-strip">
         <div class="footer-cta-content">
@@ -50,13 +39,12 @@
       <div class="footer-disclaimers">
         <div class="disclaimer-content">
           <p class="disclaimer-heading">Important Information</p>
-          <p>Starting price of $7,499 is for roofs up to 1,500 sq ft with standard pitch and no special requirements. Final pricing depends on roof size, pitch, accessibility, and current condition. All estimates are free with no obligation. Prices subject to change based on material costs.</p>
-          <p>JK Roofing & Construction is a licensed, bonded, and insured roofing contractor serving Utah. GAF Master Elite certification awarded to top 2% of roofing contractors nationwide.</p>
-          <p class="disclaimer-meta">Serving the Wasatch Front • (801) 305-4851</p>
+          <p>JK Roofing & Construction is a licensed, bonded, and insured roofing contractor serving Ohio, Kentucky, and Indiana. GAF Master Elite certification awarded to top 2% of roofing contractors nationwide.</p>
+          <p class="disclaimer-meta">Serving Greater Cincinnati & Tri-State Area</p>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 JK Roofing & Construction • (801) 305-4851</p>
+        <p>© 2025 JK Roofing & Construction</p>
       </div>
     </div>
   </footer>

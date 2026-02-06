@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 30px 20px 50px;
+  padding: 12px 20px 40px;
   position: relative;
   overflow: hidden;
 }
@@ -172,11 +172,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-logo {
-  margin-bottom: 15px;
+  margin-bottom: 6px;
 }
 
 .hero-logo img {
-  max-width: 180px;
+  max-width: 160px;
   height: auto;
 }
 
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 .price-badge-wrapper {
   position: relative;
   display: inline-block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .price-hero-badge {
@@ -192,9 +192,9 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   align-items: center;
   background: linear-gradient(135deg, #F97316 0%, #EA580C 100%);
-  padding: 15px 40px;
+  padding: 12px 35px;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   box-shadow: 0 8px 30px rgba(249, 115, 22, 0.4);
   position: relative;
   overflow: hidden;
@@ -301,49 +301,6 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 500px;
   width: 100%;
   margin: 0 auto;
-}
-
-.location-ribbon {
-  position: absolute;
-  top: -8px;
-  left: -8px;
-  z-index: 10;
-  pointer-events: none;
-}
-
-.ribbon-content {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: linear-gradient(135deg, #92400E 0%, #B45309 100%);
-  color: white;
-  padding: 8px 14px;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.7em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  box-shadow: 0 4px 15px rgba(146, 64, 14, 0.4), 0 0 0 2px rgba(249, 115, 22, 0.5);
-  transform: rotate(-3deg);
-  animation: ribbonFloat 3s ease-in-out infinite;
-}
-
-@keyframes ribbonFloat {
-  0%, 100% { transform: rotate(-3deg) translateY(0); }
-  50% { transform: rotate(-2deg) translateY(-3px); }
-}
-
-.ribbon-icon {
-  width: 14px;
-  height: 14px;
-  fill: white;
-  flex-shrink: 0;
-}
-
-.ribbon-city {
-  color: #fb923c;
-  font-weight: 800;
 }
 
 .form-cta-text {
@@ -713,8 +670,8 @@ h1, h2, h3, h4, h5, h6 {
 .hero-trust-badges {
   display: flex;
   justify-content: center;
-  gap: 25px;
-  margin-top: 25px;
+  gap: 20px;
+  margin-top: 16px;
   flex-wrap: wrap;
 }
 
@@ -748,7 +705,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Live Viewers */
 .live-viewers-hero {
-  margin-top: 20px;
+  margin-top: 14px;
   background: white;
   border: 2px solid #F97316;
   border-radius: 10px;
@@ -1839,7 +1796,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-main {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 40px;
   padding-bottom: 50px;
   border-bottom: 2px solid #cbd5e1;

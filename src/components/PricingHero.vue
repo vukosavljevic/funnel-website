@@ -18,18 +18,18 @@
     <div class="pricing-hero">
       <div class="pricing-hero-content">
         <span class="pricing-hero-badge">OWNER-DIRECT PRICING</span>
-        <h2>Pay Our Best Rate—Starting at $7,499</h2>
+        <h2>Pay Our Best Rate—Starting at $7,299</h2>
         <p class="pricing-hero-subtitle">
-          For a limited time, we're offering owner-direct pricing to Utah homeowners. This is our absolute best rate—no negotiation needed, no games. You deal directly with us, not a salesperson.
+          For a limited time, we're offering owner-direct pricing to Ohio homeowners. This is our absolute best rate—no negotiation needed, no games. You deal directly with us, not a salesperson.
         </p>
         <div class="pricing-hero-features">
           <div class="pricing-feature">
             <span class="feature-check">✓</span>
-            <span>Roofs starting at $7,499</span>
+            <span>Roofs starting at $7,299</span>
           </div>
           <div class="pricing-feature">
             <span class="feature-check">✓</span>
-            <span>50-year warranty</span>
+            <span>25-year warranty</span>
           </div>
           <div class="pricing-feature">
             <span class="feature-check">✓</span>
@@ -93,7 +93,7 @@
         <div class="urgency-badge-alt">TRUTH IN PRICING</div>
         <h3>Why Pay for Someone Else's Commission?</h3>
         <p class="urgency-main-text">
-          Most roofing companies add 10-15% to your quote just for sales commissions. At JK Roofing & Construction, there's no middleman—just honest pricing from a family-owned company that's been serving Utah for over 20 years.
+          Most roofing companies add 10-15% to your quote just for sales commissions. At JK Roofing & Construction, there's no middleman—just honest pricing from a family-owned company that's been serving Ohio for over 20 years.
         </p>
         <div class="urgency-details">
           <div class="urgency-point">
@@ -127,7 +127,7 @@
       <div class="benefit-card">
         <div class="benefit-icon">🎖️</div>
         <h3>Family Owned, 20+ Years</h3>
-        <p>We're not a big corporation—we're a family-owned Utah business built on integrity. When you get a quote, that's the owner's word.</p>
+        <p>We're not a big corporation—we're a family-owned Ohio business built on integrity. When you get a quote, that's the owner's word.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-icon">⭐</div>

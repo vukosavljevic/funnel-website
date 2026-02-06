@@ -3,14 +3,14 @@
     <div class="header-content">
       <div class="header-badge" id="header-month-badge">
         <span class="badge-desktop">{{ monthBadge }}</span>
-        <span class="badge-mobile">{{ monthBadge }} • Cinccati Ohio</span>
+        <span class="badge-mobile">{{ monthBadge }} • Cincinnati Ohio</span>
       </div>
       <div class="header-text">
         <h1>New Roof Without the Premium Markup</h1>
         <p>
           <span class="header-intro">Skip the salesperson — deal direct with the owners</span>
           <span class="divider"></span>
-          <span class="location-pill">Greater Cincinnati</span>
+          <span class="location-pill">Covering 3 States</span>
           <span class="divider-dot"> • </span>
           <strong class="header-urgency">Limited Spots This Month</strong>
         </p>

@@ -5,7 +5,7 @@
         <img 
           src="../../assets/logo.png" 
           alt="JK Roofing & Construction"
-          width="180"
+          width="160"
           height="auto"
           loading="eager"
           fetchpriority="high"
@@ -19,7 +19,7 @@
         </div>
         <div class="price-hero-badge">
           <span class="price-label">New Roofs Starting At</span>
-          <span class="price-amount">$7,499</span>
+          <span class="price-amount">$7,299</span>
           <span class="price-sublabel">Owner-Direct Pricing</span>
           <span class="bonus-badge">GAF Master Elite Certified</span>
         </div>
@@ -49,7 +49,7 @@
       <div class="live-viewers-hero">
         <span class="live-pulse"></span>
         <span class="live-text">
-          <strong>{{ viewerCount }}</strong> Utah homeowners viewing this offer right now
+          <strong>{{ viewerCount }}</strong> Ohio homeowners viewing this offer right now
         </span>
       </div>
     </div>

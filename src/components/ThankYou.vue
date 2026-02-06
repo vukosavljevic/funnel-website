@@ -98,7 +98,7 @@
         <div class="trust-card">
           <div class="trust-icon">🏆</div>
           <h4>20+ Years Experience</h4>
-          <p>Trusted by Utah homeowners since 2004</p>
+          <p>Trusted by Ohio homeowners since 2004</p>
         </div>
         <div class="trust-card">
           <div class="trust-icon">👨‍👩‍👧‍👦</div>
