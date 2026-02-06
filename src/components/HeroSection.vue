@@ -3,8 +3,8 @@
     <div class="hero-content">
       <div class="hero-logo">
         <img 
-          src="https://storage.googleapis.com/msgsndr/IPswTsY3Acrs3R9noiBN/media/693b33ae27292d36f372cee3.png" 
-          alt="BigHorn Roofing"
+          src="../../assets/logo.png" 
+          alt="JK Roofing & Construction"
           width="180"
           height="auto"
           loading="eager"

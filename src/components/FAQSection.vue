@@ -8,11 +8,9 @@
       v-for="(faq, index) in faqs" 
       :key="index"
       class="faq-item"
-      :class="{ active: activeFaq === index }"
     >
-      <div class="faq-question" @click="toggleFaq(index)">
+      <div class="faq-question">
         <span>{{ faq.q }}</span>
-        <span class="faq-icon">{{ activeFaq === index ? '−' : '+' }}</span>
       </div>
       <div class="faq-answer">
         <div class="faq-answer-content">
@@ -24,18 +22,12 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-
-const activeFaq = ref(null)
-
-const toggleFaq = (index) => {
-  activeFaq.value = activeFaq.value === index ? null : index
-}
+// FAQ items are always expanded - no toggle needed
 
 const faqs = [
   {
     q: 'What does "owner-direct pricing" mean?',
-    a: '<strong>It means no salespeople, no commissions, no markups.</strong> Most roofing companies pay 10-15% of your quote to a salesperson. At BigHorn, you\'re dealing directly with the owners—so those savings go to you instead. Same premium materials, better price.'
+    a: '<strong>It means no salespeople, no commissions, no markups.</strong> Most roofing companies pay 10-15% of your quote to a salesperson. At JK Roofing & Construction, you\'re dealing directly with the owners—so those savings go to you instead. Same premium materials, better price.'
   },
   {
     q: 'How long does a roof replacement take?',

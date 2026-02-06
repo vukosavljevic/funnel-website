@@ -1,6 +1,6 @@
 <template>
   <div class="trust-banner">
-    <h2>Why Utah Trusts BigHorn</h2>
+    <h2>Why Utah Trusts JK Roofing & Construction</h2>
     <p>Numbers that speak for themselves</p>
     <div class="trust-stats">
       <div class="stat-item">

@@ -17,6 +17,8 @@ export default defineConfig({
     },
   },
   build: {
+    // Clean output directory before build
+    emptyOutDir: true,
     // Optimize build for performance
     minify: 'terser',
     terserOptions: {

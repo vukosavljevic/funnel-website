@@ -30,7 +30,7 @@ const reviews = [
     initials: 'SM',
     name: 'Sarah M.',
     location: 'West Jordan, UT',
-    quote: 'The entire experience was outstanding, beginning with the thorough inspection. The bid was $1,000 less than other bids I received. I heartily endorse BigHorn!',
+    quote: 'The entire experience was outstanding, beginning with the thorough inspection. The bid was $1,000 less than other bids I received. I heartily endorse JK Roofing & Construction!',
     project: 'Full Roof Replacement'
   },
   {
@@ -38,7 +38,7 @@ const reviews = [
     initials: 'JK',
     name: 'Jake K.',
     location: 'Sandy, UT',
-    quote: 'Everyone at BigHorn was amazing. Jake went over several options and answered all our questions. The estimate was fair. Great company with great people!',
+    quote: 'Everyone at JK Roofing & Construction was amazing. Jake went over several options and answered all our questions. The estimate was fair. Great company with great people!',
     project: 'New Roof Installation'
   },
   {
@@ -46,7 +46,7 @@ const reviews = [
     initials: 'MR',
     name: 'Mike R.',
     location: 'Draper, UT',
-    quote: 'I had priced around and BigHorn was the best value. Professionalism and workmanship was wonderful—quality you\'d expect from a large company at a budget-friendly price.',
+    quote: 'I had priced around and JK Roofing & Construction was the best value. Professionalism and workmanship was wonderful—quality you\'d expect from a large company at a budget-friendly price.',
     project: 'Roof & Siding'
   },
   {

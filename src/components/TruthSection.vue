@@ -2,7 +2,7 @@
   <div class="truth-section">
     <h2>5 Roofing Truths No Other Contractor Will Tell You</h2>
     <p class="truth-intro">
-      We built BigHorn on radical honesty. Here's what the roofing industry doesn't want you to know—and why we do things differently.
+      We built JK Roofing & Construction on radical honesty. Here's what the roofing industry doesn't want you to know—and why we do things differently.
     </p>
     <div class="comparison-grid">
       <div class="comparison-card bad">
@@ -16,7 +16,7 @@
         </ul>
       </div>
       <div class="comparison-card good">
-        <h3>✓ The BigHorn Difference</h3>
+        <h3>✓ The JK Roofing & Construction Difference</h3>
         <ul>
           <li>Owner-direct pricing—our absolute best rate</li>
           <li>No sales commissions = lower prices for you</li>

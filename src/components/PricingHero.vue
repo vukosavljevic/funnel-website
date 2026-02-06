@@ -5,7 +5,7 @@
         <span class="oc-badge">FAMILY OWNED & OPERATED</span>
         <h2>Radical Honesty. Premium Quality. Fair Prices.</h2>
         <p>
-          We use premium GAF materials. We employ skilled craftsmen. We just don't hide behind industry pricing games that cost you thousands. When you work with BigHorn, you get an honest, transparent experience—exactly how it should be.
+          We use premium GAF materials. We employ skilled craftsmen. We just don't hide behind industry pricing games that cost you thousands. When you work with JK Roofing & Construction, you get an honest, transparent experience—exactly how it should be.
         </p>
       </div>
     </div>
@@ -93,7 +93,7 @@
         <div class="urgency-badge-alt">TRUTH IN PRICING</div>
         <h3>Why Pay for Someone Else's Commission?</h3>
         <p class="urgency-main-text">
-          Most roofing companies add 10-15% to your quote just for sales commissions. At BigHorn, there's no middleman—just honest pricing from a family-owned company that's been serving Utah for over 20 years.
+          Most roofing companies add 10-15% to your quote just for sales commissions. At JK Roofing & Construction, there's no middleman—just honest pricing from a family-owned company that's been serving Utah for over 20 years.
         </p>
         <div class="urgency-details">
           <div class="urgency-point">
