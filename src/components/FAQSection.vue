@@ -22,6 +22,10 @@
 </template>
 
 <script setup>
+import { usePrice } from '../composables/usePrice'
+
+const { price } = usePrice()
+
 // FAQ items are always expanded - no toggle needed
 
 const faqs = [
@@ -34,7 +38,7 @@ const faqs = [
     a: '<strong>Most roofs are completed in just one day.</strong> Our experienced crews work efficiently without cutting corners. We show up when we say we will, finish on time, and leave your property cleaner than we found it.'
   },
   {
-    q: 'What\'s included in the $7,299 starting price?',
+    q: `What's included in the ${price} starting price?`,
     a: '<strong>Everything you need for a complete roof system:</strong> tear-off, disposal, premium GAF shingles, underlayment, flashing, vents, and cleanup. No hidden fees. If we discover damaged plywood during tear-off, we discuss it with you first—no surprise charges.'
   },
   {

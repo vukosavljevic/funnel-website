@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Roof from $7,299 — Owner-Direct Pricing | JK Roofing & Construction</title>
-    <meta name="description" content="Get owner-direct pricing on premium GAF roofing. Starting at $7,299. No sales commissions, no hidden fees. GAF Master Elite certified. Serving Greater Cincinnati, OH, KY, IN.">
+    <title id="page-title">New Roof from $7,299 — Owner-Direct Pricing | JK Roofing & Construction</title>
+    <meta id="page-description" name="description" content="Get owner-direct pricing on premium GAF roofing. Starting at $7,299. No sales commissions, no hidden fees. GAF Master Elite certified. Serving Greater Cincinnati, OH, KY, IN.">
+    <script>
+      // Update title and meta description based on URL
+      (function() {
+        const path = window.location.pathname;
+        const titleEl = document.getElementById('page-title');
+        const descEl = document.getElementById('page-description');
+        
+        if (path.includes('/metal')) {
+          if (titleEl) titleEl.textContent = 'New Roof from $9,299 — Owner-Direct Pricing | JK Roofing & Construction';
+          if (descEl) descEl.setAttribute('content', 'Get owner-direct pricing on premium GAF roofing. Starting at $9,299. No sales commissions, no hidden fees. GAF Master Elite certified. Serving Greater Cincinnati, OH, KY, IN.');
+        }
+      })();
+    </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     
@@ -28,11 +41,11 @@
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
           n.callMethod.apply(n,arguments):n.queue.push(arguments)};
           if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;t.crossOrigin='anonymous';
+          n.queue=[];t=b.createElement(e);t.async=!0;
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '882857072258805');
+          fbq('init', '787417053533412');
           fbq('track', 'PageView');
         }
         
@@ -46,8 +59,8 @@
       })();
     </script>
     <noscript>
-      <img height="1" width="1" style="display:none" 
-           src="https://www.facebook.com/tr?id=882857072258805&ev=PageView&noscript=1"
+      <img height="1" width="1" style="display:none"
+           src="https://www.facebook.com/tr?id=787417053533412&ev=PageView&noscript=1"
            referrerpolicy="no-referrer-when-downgrade"
            loading="lazy"/>
     </noscript>

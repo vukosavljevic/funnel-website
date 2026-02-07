@@ -19,7 +19,7 @@
         </div>
         <div class="price-hero-badge">
           <span class="price-label">New Roofs Starting At</span>
-          <span class="price-amount">$7,299</span>
+          <span class="price-amount">{{ price }}</span>
           <span class="price-sublabel">Owner-Direct Pricing</span>
           <span class="bonus-badge">GAF Master Elite Certified</span>
         </div>
@@ -59,7 +59,9 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import FormSurvey from './FormSurvey.vue'
+import { usePrice } from '../composables/usePrice'
 
+const { price } = usePrice()
 const viewerCount = ref(14)
 let countInterval = null
 

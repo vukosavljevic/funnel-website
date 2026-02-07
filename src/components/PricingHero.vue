@@ -18,14 +18,14 @@
     <div class="pricing-hero">
       <div class="pricing-hero-content">
         <span class="pricing-hero-badge">OWNER-DIRECT PRICING</span>
-        <h2>Pay Our Best Rate—Starting at $7,299</h2>
+        <h2>Pay Our Best Rate—Starting at {{ price }}</h2>
         <p class="pricing-hero-subtitle">
           For a limited time, we're offering owner-direct pricing to Ohio homeowners. This is our absolute best rate—no negotiation needed, no games. You deal directly with us, not a salesperson.
         </p>
         <div class="pricing-hero-features">
           <div class="pricing-feature">
             <span class="feature-check">✓</span>
-            <span>Roofs starting at $7,299</span>
+            <span>Roofs starting at {{ price }}</span>
           </div>
           <div class="pricing-feature">
             <span class="feature-check">✓</span>
@@ -140,8 +140,10 @@
 
 <script setup>
 import { useSpots } from '../composables/useSpots'
+import { usePrice } from '../composables/usePrice'
 
 const { spotsRemaining, currentMonth, spotsFilled, progressPercent, seasonalMessage } = useSpots()
+const { price } = usePrice()
 
 const scrollToForm = () => {
   document.getElementById('estimate-form')?.scrollIntoView({ 
