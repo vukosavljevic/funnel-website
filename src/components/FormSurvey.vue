@@ -554,10 +554,11 @@ const submitForm = () => {
     utm_term: urlParams.get('utm_term') || '',
     page_url: window.location.href,
     source: 'Best Roofing Offer - JK Roofing & Construction',
-    submitted_at: new Date().toISOString()
+    submitted_at: new Date().toISOString(),
+    tags: ['fb lead']
   }
   
-  const WEBHOOK = ''
+  const WEBHOOK = 'https://services.leadconnectorhq.com/hooks/dnOxsdCQQ8R9EijvSzj1/webhook-trigger/3aa2738e-b7a2-418b-a1dc-95024c6ddbec'
   
   fetch(WEBHOOK, {
     method: 'POST',
