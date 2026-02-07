@@ -23,11 +23,14 @@
       <Footer />
       <ClaimNotification />
     </template>
+    
+    <Analytics />
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { Analytics } from '@vercel/analytics/vue'
 import Header from './components/Header.vue'
 import HeroSection from './components/HeroSection.vue'
 import TrustBanner from './components/TrustBanner.vue'
