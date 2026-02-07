@@ -18,7 +18,7 @@
             <div class="progress-bar-fill" :style="{ width: progressPercent + '%' }"></div>
           </div>
           <div class="progress-text">
-            <span>Step {{ currentQuestion }} of 6</span>
+            <span>Step {{ currentQuestion }} of 5</span>
             <span>{{ progressPercent }}%</span>
           </div>
         </div>
@@ -44,30 +44,9 @@
           </div>
         </div>
         
-        <!-- Question 2: Square Footage -->
+        <!-- Question 2: Timeline -->
         <div class="survey-question" :class="{ active: currentQuestion === 2 }">
-          <div class="question-label">Approximately how large is your home?</div>
-          <div class="survey-options compact">
-            <button 
-              v-for="option in sqftOptions"
-              :key="option"
-              class="survey-option"
-              :class="{ selected: surveyData.sqft === option }"
-              @click="selectOption('sqft', option)"
-            >
-              <span class="option-radio"></span>
-              <span>{{ option }}</span>
-            </button>
-          </div>
-          <div class="survey-nav-btns">
-            <button class="survey-btn back-btn" @click="prevQuestion">← Back</button>
-            <button class="survey-btn next-btn" :disabled="!canContinue" @click="nextQuestion">Continue →</button>
-          </div>
-        </div>
-        
-        <!-- Question 3: Timeline -->
-        <div class="survey-question" :class="{ active: currentQuestion === 3 }">
-          <div class="question-label">When are you looking to get your roof done?</div>
+          <div class="question-label">When are you wanting this project completed?</div>
           <div class="survey-options compact">
             <button 
               v-for="option in timelineOptions"
@@ -86,9 +65,9 @@
           </div>
         </div>
         
-        <!-- Question 4: Payment -->
-        <div class="survey-question" :class="{ active: currentQuestion === 4 }">
-          <div class="question-label">How are you planning to pay for your roof?</div>
+        <!-- Question 3: Payment -->
+        <div class="survey-question" :class="{ active: currentQuestion === 3 }">
+          <div class="question-label">How are you hoping to pay for a new roof?</div>
           <div class="survey-options compact">
             <button 
               v-for="option in paymentOptions"
@@ -107,9 +86,10 @@
           </div>
         </div>
         
-        <!-- Question 5: Address -->
-        <div class="survey-question" :class="{ active: currentQuestion === 5 }">
+        <!-- Question 4: Address -->
+        <div class="survey-question" :class="{ active: currentQuestion === 4 }">
           <div class="question-label">Where is the property located?</div>
+          <div class="question-note">Please exit the survey if you live more than 70 miles from Cincinnati, OH</div>
           <div class="input-group">
             <input 
               type="text" 
@@ -119,25 +99,14 @@
               autocomplete="street-address"
               @input="validate"
             />
-            <div class="input-row">
-              <input 
-                type="text" 
-                class="survey-input"
-                v-model="surveyData.city"
-                placeholder="City"
-                autocomplete="address-level2"
-                @input="validate"
-              />
-              <input 
-                type="text" 
-                class="survey-input"
-                v-model="surveyData.state"
-                placeholder="State"
-                style="flex: 0.5"
-                autocomplete="address-level1"
-                @input="handleStateInput"
-              />
-            </div>
+            <input 
+              type="text" 
+              class="survey-input"
+              v-model="surveyData.city"
+              placeholder="City"
+              autocomplete="address-level2"
+              @input="validate"
+            />
             <input 
               type="text" 
               class="survey-input"
@@ -154,8 +123,8 @@
           </div>
         </div>
         
-        <!-- Question 6: Contact Info -->
-        <div class="survey-question" :class="{ active: currentQuestion === 6 }">
+        <!-- Question 5: Contact Info -->
+        <div class="survey-question" :class="{ active: currentQuestion === 5 }">
           <div class="question-label">Almost done! <span class="highlight">Where should we send your estimate?</span></div>
           <div class="input-group">
             <input 
@@ -223,7 +192,7 @@ const emit = defineEmits(['submit'])
 const { spotsRemaining } = useSpots()
 
 const currentQuestion = ref(1)
-const totalQuestions = 6
+const totalQuestions = 5
 
 const surveyData = ref({
   homeType: '',
@@ -241,9 +210,9 @@ const surveyData = ref({
 
 const homeTypeOptions = [
   'Single Family Home',
-  'Townhouse',
-  'Multi-Family (2-4 units)',
-  'Mobile/Manufactured Home'
+  'Townhome Or Duplex',
+  'Mobile Home',
+  'Building'
 ]
 
 const sqftOptions = [
@@ -254,17 +223,17 @@ const sqftOptions = [
 ]
 
 const timelineOptions = [
-  'ASAP - Emergency/Urgent',
-  'Within the next 30 days',
-  '1-3 months',
-  'Just exploring options'
+  'ASAP',
+  'This Month',
+  'Next Month',
+  'No Preference'
 ]
 
 const paymentOptions = [
-  'Cash / Check',
-  'Financing (monthly payments)',
-  'Insurance Claim',
-  'Not sure yet'
+  'Cash',
+  'Financing',
+  'Insurance',
+  'Not sure'
 ]
 
 const progressPercent = computed(() => Math.round((currentQuestion.value / totalQuestions) * 100))
@@ -274,17 +243,14 @@ const canContinue = computed(() => {
     case 1:
       return surveyData.value.homeType !== ''
     case 2:
-      return surveyData.value.sqft !== ''
-    case 3:
       return surveyData.value.timeline !== ''
-    case 4:
+    case 3:
       return surveyData.value.payment !== ''
-    case 5:
+    case 4:
       return surveyData.value.street !== '' && 
              surveyData.value.city !== '' && 
-             surveyData.value.state !== '' && 
              surveyData.value.zip.length === 5
-    case 6:
+    case 5:
       return surveyData.value.name !== '' && 
              /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(surveyData.value.email) &&
              surveyData.value.phone.replace(/\D/g, '').length >= 10
