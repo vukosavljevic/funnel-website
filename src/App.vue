@@ -44,9 +44,10 @@ import ThankYou from './components/ThankYou.vue'
 const isThankYouPage = ref(false)
 
 onMounted(() => {
-  // Check if we're on the thank you page
+  // Check if we're on the confirmation page
   const checkRoute = () => {
-    isThankYouPage.value = window.location.pathname === '/roofing-thank-you' || 
+    isThankYouPage.value = window.location.pathname === '/confirmation' || 
+                           window.location.pathname === '/roofing-thank-you' ||
                            window.location.pathname.includes('thank-you')
   }
   

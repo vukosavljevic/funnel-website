@@ -544,8 +544,8 @@ const submitForm = () => {
     city: surveyData.value.city
   })
   
-  // Redirect to thank you page
-  window.location.href = '/roofing-thank-you?' + tyParams.toString()
+  // Redirect to confirmation page
+  window.location.href = '/confirmation?' + tyParams.toString()
 }
 
 onMounted(() => {
