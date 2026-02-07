@@ -44,13 +44,17 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 JK Roofing & Construction</p>
+        <p>© {{ currentYear }} JK Roofing & Construction</p>
       </div>
     </div>
   </footer>
 </template>
 
 <script setup>
+import { computed } from 'vue'
+
+const currentYear = computed(() => new Date().getFullYear())
+
 const scrollToForm = () => {
   document.getElementById('estimate-form')?.scrollIntoView({ 
     behavior: 'smooth', 

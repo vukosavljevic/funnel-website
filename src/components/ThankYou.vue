@@ -26,11 +26,11 @@
         <h2 class="cta-headline">Call Now to Claim Your Offer</h2>
         <p class="cta-subtext">Skip the queue — we'll prioritize your estimate</p>
         
-        <a href="tel:+18013054851" class="mega-call-btn">
+        <a href="tel:+15133785700" class="mega-call-btn">
           <span class="phone-icon">📞</span>
           <span class="call-text">
             <span class="call-label">Tap to Call</span>
-            <span class="call-number">(801) 305-4851</span>
+            <span class="call-number">(513) 378-5700</span>
           </span>
         </a>
         
@@ -148,24 +148,25 @@
       <div class="bottom-cta">
         <h3>Ready to Lock In Your Price?</h3>
         <p>Give us a call to claim your owner-direct pricing</p>
-        <a href="tel:+18013054851" class="bottom-call-btn">
+        <a href="tel:+15133785700" class="bottom-call-btn">
           <span>📞</span>
-          <span>(801) 305-4851</span>
+          <span>(513) 378-5700</span>
         </a>
       </div>
       
       <!-- Footer -->
       <div class="footer">
-        <p>© 2025 JK Roofing & Construction</p>
+        <p>© {{ currentYear }} JK Roofing & Construction</p>
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 
 const userName = ref('')
+const currentYear = computed(() => new Date().getFullYear())
 
 onMounted(() => {
   // Get name from URL params
