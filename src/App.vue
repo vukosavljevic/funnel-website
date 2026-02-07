@@ -23,7 +23,6 @@
       <Footer />
       <ClaimNotification />
     </template>
-    
   </div>
 </template>
 
